@@ -25,7 +25,7 @@ export interface Props{
     fontColor?: string
 }
 
-const MyLabel = ( {
+export const MyLabel = ( {
         label ='Noo label',
         size = 'normal',
         allCaps = false,
