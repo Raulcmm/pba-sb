@@ -20,12 +20,12 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Button Primary',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
+  label: 'Button Secondary',
 };
 
 export const Large = Template.bind({});
