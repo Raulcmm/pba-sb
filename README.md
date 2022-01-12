@@ -8,4 +8,5 @@
 
 ```
 npm install rc-historybook-comp
+...
 ```
