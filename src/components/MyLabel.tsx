@@ -26,11 +26,11 @@ export interface Props{
 }
 
 export const MyLabel = ( {
-        label ='Noo label',
-        size = 'normal',
-        allCaps = false,
-        color = 'primary',
-        fontColor = '#e5e'
+        label ='No label',
+        size = 'h1',
+        allCaps = true,
+        color = 'secondary',
+        fontColor = '#a5a5'
     } : Props ) => {
     return (
         <span className={`label ${size} text-${color}`} style={{color:fontColor}}>
